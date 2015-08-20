@@ -1,0 +1,229 @@
+body {
+	background: black;
+	color: white;
+}
+
+.header .head {
+	background: #333;
+}
+
+.footer,
+.breadcrumb,
+.collapses .item .title,
+.calendar-block,
+.grid-search .search-min,
+.select-filter,
+.checked-list {
+	background: #0F0F0F;
+}
+
+
+
+
+
+.nav .wrap > ul > li:hover > a,
+.header,
+.media .ui-tabs-panel,
+.media .last-news li .item,
+.right-menu ul li a,
+.right-menu ul li span,
+input[type='text'], input[type='email'], input[type='password'], textarea, select,
+.header .search input {
+	background: black;
+}
+
+
+
+.media .ui-tabs li.ui-tabs-active a,
+.nav,
+.btn-default,
+.table th,
+.links-table .head {
+	background: white;
+}
+
+
+
+a,
+a:hover,
+.header .logo,
+.header .head .invalid-style,
+.header .head .link a,
+h2, h3, h4, h5,
+.footer,
+.footer .left .title,
+.footer .left .desc a,
+.footer .left .desc a b,
+.footer .right .link a,
+.nav .wrap > ul > li:hover > a,
+.hash-tag span,
+.collapses .item .title,
+.media .ui-tabs-nav li a,
+.media .last-news li .item .title a,
+.right-menu ul li a,
+.right-menu ul li span,
+.table,
+input[type='text'], input[type='email'], input[type='password'], textarea, select,
+.header .search input
+{
+	color: white;
+}
+
+
+.btn-default,
+.media .ui-tabs li.ui-tabs-active a,
+.nav .wrap > ul > li a,
+.table th,
+.table th a,
+.links-table .head {
+	color: black;
+}
+
+
+
+
+
+
+.theme-settings-fonts a.active {
+	background: white;
+	color: black;
+}
+.theme-settings {
+	border-right: 1px solid #474747;
+}
+.theme-settings-fonts a.active:after {
+	border-top: 4px solid white;
+}
+.footer .right .copyright {
+	color: #CDCDCD;
+}
+.collapses > .item {
+	border: 1px solid #222;
+}
+.media .ui-tabs-nav {
+	border-bottom: 2px solid white;
+}
+.header .search button {
+	background: url("../images/search-white.png") no-repeat center;
+}
+
+.table th,
+.table td,
+.right-menu ul,
+input[type='text'], input[type='email'], input[type='password'], textarea, select,
+.header .search input,
+.links-table ol {
+	border: 1px solid white;
+}
+.header .head .invalid-style:before {
+	background: url("../images/i4-white.png") no-repeat;
+}
+.icheckbox {
+	background: url("../images/checked-black.png") no-repeat;
+}
+
+.right-menu.authorities-menu ul {
+	background: #fff;
+}
+.right-menu.authorities-menu a,
+.right-menu.authorities-menu span {
+	color: #000;
+}
+.right-menu.authorities-menu a:hover,
+.right-menu.authorities-menu span:hover {
+	background: #fff;
+	color: #000;
+}
+
+.right-slide .slide {
+	background: #fff;
+	color: #000;
+}
+.right-slide .next,
+.right-slide .slide .txt {
+	color: #000;
+}
+.right-slide .next:after {
+	display: none;
+}
+
+.page-date {
+	background: none;
+}
+
+.page-date .line {
+	color: #fff;
+}
+
+
+.fancybox-skin .head {
+	background: #0F0F0F;
+}
+.ckeditor-invalid table td {
+	border: 1px solid #fff;
+}
+
+.ckeditor-invalid,
+.ckeditor-invalid p,
+.ckeditor-invalid span {
+	color: #fff !important;
+}
+.ckeditor-invalid table[border] td,
+.ckeditor-invalid table td,
+.ckeditor-invalid table td a {
+	color: #fff !important;
+}
+.ckeditor-invalid a {
+	color: #fff !important;
+}
+
+.votes .last-vote .left {
+	background: #fff;
+}
+
+.tabs a.active {
+	border: 1px solid #fff;
+	color: #000;
+	background: #fff;
+}
+.tabs a {
+	border: 1px solid #fff;
+	color: #fff;
+}
+.votes .last-vote .left {
+	background: #fff;
+	color: #000;
+}
+
+.pager ul li.selected a {
+	color: #000;
+	background: #fff;
+}
+.pager ul li a {
+	color: #fff;
+}
+
+.jobs-list {
+	color: #fff;
+}
+
+.ckeditor table th {
+	background: #fff;
+	color: #000;
+	border: 1px solid #fff;
+	border-right: 1px solid #000;
+}
+.ckeditor table th a,
+.ckeditor table th p,
+.ckeditor table th span {
+	color: #000 !important;
+}
+
+form .row span.required,
+.form .hint span.required,
+.fancybox-skin .form span.required {
+	color: #fff;
+}
+.form .hint, .form .note {
+	color: #fff;
+}

@@ -1,0 +1,149 @@
+body,
+.nav .wrap > ul > li a,
+.right-menu ul li a,
+.right-menu ul li span,
+.breadcrumbs,
+.theme-settings-color a,
+.media .last-news li .item .date,
+.media .foot,
+input[type='text'], 
+input[type='email'], 
+input[type='password'], 
+textarea, 
+select,
+.table td,
+.links-table .head,
+.jobs td a,
+.selecter-selected,
+.selecter-item,
+.filter-day,
+.media .last-news li .item .title a,
+.media .ui-tabs-nav li a,
+h5,
+.right-menu a,
+.iogv-menu a,
+.right-menu span,
+.iogv-menu span,
+.invalid-version .checked-list .input-group .group,
+.checked-list li .label,
+ul.news_list li>div h3,
+ul.news_list p.date,
+.keywords
+
+{
+	font-size: 26px;
+}
+
+
+.footer .left .desc p,
+.footer .right .link a,
+.footer .right .copyright {
+	font-size: 22px;
+}
+.header .head .link a,
+.header .head .invalid-style {
+	font-size: 16px;
+}
+
+#main {
+	padding-bottom: 260px;
+}
+.footer {
+	margin-top: -260px;
+	height: 260px;
+}
+
+.icheckbox {
+	width: 20px;
+	height: 20px;
+	background: url("../images/checked-big.png") no-repeat;
+}
+
+.icheckbox.hover {
+	background-position: -20px 0;
+}
+
+.icheckbox.checked {
+	background-position: -40px 0;
+}
+
+.icheckbox.hover.checked {
+	background-position: -60px 0;
+}
+
+.icheckbox.disabled {
+	background-position: 0 0;
+	cursor: default;
+}
+
+.icheckbox.checked.disabled {
+	background-position: -40px 0;
+}
+.checked-list li .icheckbox {
+	top: 7px;
+}
+.checked-list li {
+	padding-left: 30px;
+}
+
+.invalid-opendata .left-content .left {
+	float: none;
+	width: 100%;
+	margin-bottom: 20px;
+}
+.invalid-opendata .left-content .right {
+	margin-left: 0;
+}
+
+.horisontal-row {
+	margin-left: 40px;
+}
+
+.links-table ol {
+	padding-left: 60px; 
+}
+
+#ui-datepicker-div {
+	width: 290px;
+}
+.contact-info .row {
+	line-height: 1;
+}
+.media .last-news .empty {
+	padding: 20px 20px 0;
+}
+
+.ckeditor-invalid,
+.ckeditor-invalid p,
+.ckeditor-invalid span {
+	font-size: 26px !important;
+}
+
+.ckeditor-invalid table[border] td,
+.ckeditor-invalid table td {
+	font-size: 26px !important;
+	line-height: normal !important;
+}
+.ckeditor-invalid ul li {
+	margin-bottom: 8px;
+}
+
+.vote-result .label .name,
+.vote-result .label .percent {
+	font-size: 26px;
+}
+.votes .last-vote .left .info {
+	line-height: 1;
+}
+
+.jobs-list > li .desc {
+	font-size: 20px;
+}
+
+.fancybox-skin .form span.required {
+	font-size: 26px;
+}
+
+.docs-info {
+	font-size: 18px;
+}

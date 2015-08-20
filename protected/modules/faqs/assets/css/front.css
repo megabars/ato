@@ -1,0 +1,27 @@
+/* faq */
+ul.faq {
+    margin: 0;
+}
+ul.faq>li {
+    margin: 0;
+    list-style: none;
+    overflow: hidden;
+}
+ul.faq>li>span:first-child {
+    font-size: 16px;
+    line-height: 26px;
+    color: #0374d3;
+    cursor: pointer;
+}
+ul.faq>li>span:first-child:before {
+    content: '\002B';
+    color: #0374d3;
+    margin-right: 7px;
+}
+ul.faq>li.open>span:first-child:before {
+    content: '\2212';
+}
+ul.faq>li>div {
+    margin-left: 25px;
+    display: none;
+}

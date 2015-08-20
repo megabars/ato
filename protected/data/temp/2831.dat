@@ -1,0 +1,39 @@
+Admin	2	\N	\N	N;
+Feedback.Front.*	1	\N	\N	N;
+News.Front.*	1	\N	\N	N;
+Pages.Front.*	1	\N	\N	N;
+User.Activation.*	1	\N	\N	N;
+User.Login.*	1	\N	\N	N;
+User.Logout.*	1	\N	\N	N;
+User.Recovery.*	1	\N	\N	N;
+User.Registration.*	1	\N	\N	N;
+PortalAdmin	2	Администратор субпортала	\N	N;
+Afisha.Front.*	1	\N	\N	N;
+Audio.Front.*	1	\N	\N	N;
+Documents.Front.*	1	\N	\N	N;
+Files.Front.*	1	\N	\N	N;
+PhotoGallery.Front.*	1	\N	\N	N;
+Vote.Front.*	1	\N	\N	N;
+Main.*	1	Основной контроллер портала (в т.ч. главная страница)	\N	N;
+Experts.*	1	\N	\N	N;
+Authenticated	2	Авторизованные пользователи	\N	N;
+Guest	2	Незарегистрированные пользователи	\N	N;
+People.Front.*	1	Персоналии, пользовательская часть	\N	N;
+Government.Front.*	1	Исполнительные органы государственной власти 	\N	N;
+AntiCorruption.Front.*	1	\N	\N	N;
+Appeal.Front.*	1	\N	\N	N;
+People.Iogv.*	1	\N	\N	N;
+People.Office.*	1	\N	\N	N;
+People.Offices.*	1	\N	\N	N;
+People.PeopleStaff.*	1	\N	\N	N;
+People.PeopleUnit.*	1	\N	\N	N;
+PublicReport.Front.*	1	\N	\N	N;
+Rating.Front.*	1	\N	\N	N;
+Smi.Front.*	1	\N	\N	N;
+Staff.Front.*	1	\N	\N	N;
+Stenogramm.Front.*	1	\N	\N	N;
+Video.Front.*	1	\N	\N	N;
+Opendata.Front.*	1	\N	\N	N;
+\.
+
+

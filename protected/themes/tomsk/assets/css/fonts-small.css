@@ -1,0 +1,76 @@
+body,
+.nav .wrap > ul > li a,
+.right-menu ul li a,
+.right-menu ul li span,
+.breadcrumbs,
+.theme-settings-color a,
+.header .head .link,
+.media .last-news li .item .date,
+.media .foot,
+.footer .left .desc p,
+.footer .right .link a,
+.footer .right .copyright,
+input[type='text'], 
+input[type='email'], 
+input[type='password'], 
+textarea,
+select,
+.table td,
+.links-table .head,
+.jobs td a,
+.selecter-selected,
+.selecter-item,
+.filter-day,
+.media .last-news li .item .title a,
+.media .ui-tabs-nav li a,
+h5,
+.right-menu a,
+.iogv-menu a,
+.right-menu span,
+.iogv-menu span,
+.invalid-version .checked-list .input-group .group,
+.checked-list li .label,
+ul.news_list li>div h3,
+ul.news_list p.date,
+.keywords
+{
+	font-size: 16px;
+}
+
+
+.icheckbox {
+	width: 20px;
+	height: 20px;
+	background: url("../images/checked-big.png") no-repeat;
+}
+
+.icheckbox.hover {
+	background-position: -20px 0;
+}
+
+.icheckbox.checked {
+	background-position: -40px 0;
+}
+
+.icheckbox.hover.checked {
+	background-position: -60px 0;
+}
+
+.icheckbox.disabled {
+	background-position: 0 0;
+	cursor: default;
+}
+
+.icheckbox.checked.disabled {
+	background-position: -40px 0;
+}
+.checked-list li .icheckbox {
+	top: 2px;
+}
+.checked-list li {
+	padding-left: 30px;
+}
+
+.media .last-news .empty {
+	padding: 20px 20px 0;
+}

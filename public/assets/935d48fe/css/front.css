@@ -1,0 +1,14 @@
+.contact-info.type2 .image {
+    margin: 0 0 5px 0;
+}
+.collapses .desc .contact-info {
+    margin: 0;
+}
+.form .row.inline label {
+    display: inline-block;
+    margin-right: 8px;
+}
+.form .row.inline label input {
+    display: block;
+    width: auto;
+}

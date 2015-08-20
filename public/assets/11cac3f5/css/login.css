@@ -1,0 +1,205 @@
+@font-face {
+	font-family: 'ClearSans';
+	font-weight: 400;
+	font-style: normal;
+	src: url("fonts/ClearSansRegular.eot");
+	src: url("fonts/ClearSansRegular.eot") format('embedded-opentype'), url("fonts/ClearSansRegular.woff2") format('woff2'), url("fonts/ClearSansRegular.woff") format('woff'), url("fonts/ClearSansRegular.ttf") format('truetype'), url("fonts/ClearSansRegular.svg#ClearSansRegular") format('svg');
+}
+@font-face {
+	font-family: 'ClearSans';
+	font-weight: 400;
+	font-style: italic;
+	src: url("fonts/ClearSansItalic.eot");
+	src: url("fonts/ClearSansItalic.eot") format('embedded-opentype'), url("fonts/ClearSansItalic.woff2") format('woff2'), url("fonts/ClearSansItalic.woff") format('woff'), url("fonts/ClearSansItalic.ttf") format('truetype'), url("fonts/ClearSansItalic.svg#ClearSansItalic") format('svg');
+}
+* {
+	padding: 0;
+	margin: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body {
+	background: #fbfbfb;
+	font-family: "ClearSans", sans-serif;
+	font-size: 14px;
+}
+
+.logo {
+	width: 126px;
+	height: 20px;
+	background: url("../images/login.png") no-repeat;
+	display: block;
+	margin: 0 auto;
+}
+
+.login {
+	position: absolute;
+	width: 422px;
+	left: 50%;
+	top: 50%;
+	margin: -232px 0 0 -210px;
+}
+
+.login .form {
+	background: #FFF;
+	border: 1px solid #d9e9ff;
+	border-radius: 3px;
+	margin-top: 25px;
+}
+.login .form form {
+	padding: 15px 20px 20px;
+}
+.login .head {
+	color: #444b6e;
+	font-size: 20px;
+	border-bottom: 1px solid #d9e9ff;
+	padding: 15px 20px 17px;
+	background: #FCFDFF;
+}
+
+.login .form .row {
+	margin-top: 17px;
+	position: relative;
+}
+.login .form .row:first-child {
+	margin-top: 0;
+}
+
+label {
+	color: #a9b2bd;
+	display: inline-block;
+	margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="password"] {
+	border: 1px solid #E5E5E5;
+	border-radius: 2px;
+	height: 30px;
+	padding: 3px 10px;
+	width: 100%;
+}
+
+input[type="checkbox"] {
+	-webkit-appearance: none;
+	-moz-appearance:    none;
+	appearance:         none;
+	width: 16px;
+	height: 16px;
+	background: url("../images/checkbox.png") no-repeat;
+	position: relative;
+	top: 4px;
+	outline: 0;
+	cursor: pointer;
+	margin-right: 5px;
+}
+
+.row.checkbox label:before {
+	content: "";
+	width: 16px;
+	height: 16px;
+	display: inline-block;
+	background: url("../images/checkbox.png") no-repeat;
+	margin-right: 9px;
+	position: relative;
+	top: 3px;
+}
+
+.row.checkbox input[type="checkbox"]:checked + label:before {
+	background-position: top right;
+}
+
+.row.checkbox input[type="checkbox"] {
+	display: none;
+}
+
+input[type="checkbox"]:checked {
+	background-position: top right;
+}
+
+.btn {
+	background: #657ed4;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	display: inline-block;
+	color: #fff;
+	font-size: 12px;
+	padding: 6px 14px 8px;
+	cursor: pointer;
+	border: 0;
+	-webkit-transition: all 0.2s;
+	transition: all 0.2s;
+	font-family: "ClearSans", sans-serif;
+	outline: none;
+}
+.btn:hover {
+	text-decoration: none;
+}
+
+a {
+	color: #80a4ed;
+	font-size: 12px;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+.login .form .row.submit {
+	margin-top: 10px;
+}
+
+.row.submit a {
+	float: right;
+	position: relative;
+	top: 6px;
+}
+.support {
+	margin-top: 15px;
+	text-align: center;
+}
+.view-pass {
+	width: 28px;
+	height: 28px;
+	background: url("../images/password.png") no-repeat center;
+	position: absolute;
+	bottom: 1px;
+	right: 5px;
+	cursor: pointer;
+	z-index: 100;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+.view-pass.show {
+	background-image: url("../images/password-show.png");
+}
+
+.title {
+	font-size: 18px;
+	color: #4c578f;
+	text-align: center;
+	margin: 0 -60px;
+}
+
+.errorSummary {
+	color: #ED7575;
+}
+.errorSummary p {
+	font-size: 16px;
+}
+
+ul li {
+	list-style: none;
+}
+
+.hint {
+	color: #A5A5A5;
+	font-size: 12px;
+	margin-bottom: 20px;
+}

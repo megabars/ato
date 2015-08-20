@@ -1,0 +1,149 @@
+.votes .last-vote {
+	background: #f2f2f2;
+	position: relative;
+	padding-left: 300px;
+}
+
+.votes .last-vote .left {
+	width: 300px;
+	background: #3e9e49 url("../images/gradient2.png") no-repeat bottom left;
+	padding: 17px 20px 90px;
+	color: #fff;
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 100%;
+}
+.votes .last-vote .left .title {
+	font-size: 24px;
+}
+.votes .last-vote .left .info {
+	position: absolute;
+	bottom: 18px;
+	left: 20px;
+	right: 20px;
+	line-height: 17px;
+}
+.votes .last-vote .left .info .count {
+	margin-bottom: 3px;
+}
+.votes .last-vote .variations {
+	min-height: 225px;
+	padding: 15px 19px;
+}
+.votes .last-vote .variations .iradio {
+	position: relative;
+	top: 2px;
+	margin-right: 3px;
+}
+.votes .last-vote .variations li {
+	margin-bottom: 12px;
+}
+.votes .last-vote .variations div.buttons {
+	margin-top: 5px;
+}
+.votes .last-vote .variations div.buttons .hint,
+.votes .item div.buttons .hint {
+	margin-bottom: 5px;
+}
+.votes-list > ul {
+	margin-left: -20px;
+}
+.votes-list > ul > li {
+	width: 50%;
+	float: left;
+	margin-bottom: 20px;
+	padding-left: 20px;
+}
+.votes-list > ul > li.first {
+	width: 100%;
+	float: none;
+}
+.votes-list > ul > li .item {
+	background: #F2F2F2;
+	padding: 20px;
+}
+.votes-list > ul > li .item .title {
+	font-size: 16px;
+	color: #434343;
+	margin-bottom: 10px;
+}
+.votes-list li .item .variations {
+	font-size: 13px;
+	color: #4f575c;
+}
+.votes-list li .item .variations li {
+	margin-top: 5px;
+}
+.votes-list li .item .variations .label {
+	display: table;
+	margin-left: 20px;
+}
+.votes-list li .item .variations li .iradio {
+	position: relative;
+	top: 1px;
+	margin-right: 3px;
+	float: left;
+}
+.votes-list li .item .buttons {
+	margin-top: 15px;
+}
+.votes-list li .item .buttons input {
+	float: left;
+	margin-right: 10px;
+}
+.votes-list li .item .buttons .result {
+	font-size: 12px;
+	line-height: 14px;
+}
+.vote-result li {
+	margin-bottom: 10px;
+}
+.vote-result .percent {
+	margin-bottom: 10px;
+	color: #3e9e49;
+	font-size: 16px;
+	font-weight: 500;
+	min-width: 35px;
+	display: inline-block;
+	text-align: center;
+	margin-right: 5px;
+	float: left;
+}
+.vote-result .label {
+	font-size: 13px;
+	color: #434343;
+}
+.vote-result .progress {
+	height: 6px;
+	width: 100%;
+	background: #E6E6E6;
+	position: relative;
+	margin-top: 3px;
+}
+.vote-result .progress .progress-bar {
+	width: auto;
+	height: 6px;
+	position: absolute;
+	left: 0;
+	top: 0;
+	background: #64B76E;
+}
+.vote-result li:after {
+	content: " ";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+.vote-result .result {
+	font-size: 12px;
+	line-height: 14px;
+	margin-top: 15px;
+}
+.vote-result .label .name {
+	line-height: normal;
+	position: relative;
+	top: 1px;
+	display: table;
+}

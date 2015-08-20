@@ -1,0 +1,107 @@
+* {
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+@font-face {
+	font-family: 'pfdindisplayproreg';
+	src: url('../fonts/pfdindisplayproreg.eot');
+	src: url('../fonts/pfdindisplayproreg.eot') format('embedded-opentype'),
+	url('../fonts/pfdindisplayproreg.woff2') format('woff2'),
+	url('../fonts/pfdindisplayproreg.woff') format('woff'),
+	url('../fonts/pfdindisplayproreg.ttf') format('truetype'),
+	url('../fonts/pfdindisplayproreg.svg#pfdindisplayproreg') format('svg');
+}
+
+
+html {
+	background: #fff url("../images/error-bg-repeat.png") repeat-x top left;
+	height: 100%;
+}
+
+body {
+	background: url("../images/error-bg.png") no-repeat top center;
+	height: auto;
+	min-height: 100%;
+	padding-top: 420px;
+	font-family: "Tahoma", "Verdana", sans-serif;
+	padding-bottom: 40px;
+	color: #424141;
+	font-size: 15px;
+}
+
+.errors {
+	width: 437px;
+	height: 195px;
+	background: url("../images/code.png") no-repeat;
+	font-family: 'pfdindisplayproreg';
+	font-size: 120px;
+	text-align: center;
+	color: #525252;
+	padding-top: 16px;
+	margin: 0 auto;
+}
+
+.message {
+	text-align: center;
+}
+
+.message .head {
+	color: #9ba4b1;
+	font-size: 30px;
+}
+.message .boot {
+	color: #424141;
+	font-size: 15px;
+	padding-top: 10px;
+}
+
+.working {
+	width: 866px;
+	height: 195px;
+	margin: 0 auto;
+	background: url("../images/working.png") no-repeat;
+	text-align: center;
+}
+
+.work-message {
+	color: #9ba4b1;
+	font-size: 30px;
+	text-align: center;
+	margin-top: 20px;
+}
+
+.timer {
+	color: #525252;
+	float: right;
+	padding: 22px 48px 0 0;
+}
+.timer .item {
+	display: inline-block;
+	width: 126px;
+}
+
+.timer .numb {
+	font-size: 96px;
+	font-family: 'pfdindisplayproreg';
+	line-height: 1;
+}
+.timer .label {
+	color: #424141;
+	font-size: 12px;
+	font-family: "Tahoma", "Verdana", sans-serif;
+	text-align: right;
+	padding-right: 20px;
+	margin-top: -4px;
+}
+
+.error-code {
+	border: 1px solid #DADDE2;
+	border-radius: 10px;
+	padding: 20px;
+	width: 80%;
+	margin: 20px auto 0;
+}

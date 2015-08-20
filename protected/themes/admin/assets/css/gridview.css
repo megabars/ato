@@ -1,0 +1,303 @@
+table.items {
+	width: 100%;
+	border-spacing: 1px;
+	border-collapse: collapse;
+}
+
+table.items th {
+	background: #91B1F0;
+	color: #FFF;
+	border-bottom: 1px solid #8C9EDF;
+	padding: 5px;
+	font-weight: 400;
+	border-left: 1px solid #80A4ED;
+}
+
+table.items th:first-child {
+	border-left: 0;
+}
+
+.tabs .ui-widget-content table.items th a,
+table.items th a {
+	color: #FFF;
+	text-decoration: none;
+}
+
+table.items .filters td {
+	padding: 5px 10px;
+}
+
+table.items td {
+	border-left: 1px solid #EFEFEF;
+	/*border-top: 1px solid #e5e5e5;*/
+	padding: 13px;
+	max-width: 300px;
+	background: #fff;
+}
+
+table.items td:first-child {
+	border-left: 0;
+}
+
+table.items tr:nth-child(2n + 1) td {
+	background: #F9F9F9;
+}
+
+table.items tbody th {
+	border-left: 1px solid #EFEFEF;
+	/*border-top: 1px solid #e5e5e5;*/
+	padding: 13px;
+	max-width: 300px;
+	color: #6A7194;
+	background: #fff;
+	border-bottom: 0;
+	text-align: left;
+}
+
+table.items tbody th:first-child {
+	border-left: 0;
+}
+
+table.items tbody tr:nth-child(2n + 1) th {
+	background: #F9F9F9;
+}
+
+
+
+table.items .button-column,
+table.items .CButtonColumn {
+	width: 30px;
+    white-space: nowrap;
+}
+table.items .CButtonColumn>a+a {
+    margin-left: 5px;
+}
+
+table.items .button-column a,
+table.items .CButtonColumn a {
+	margin-left: 15px;
+	position: relative;
+	top: 2px;
+}
+
+table.items .button-column a:first-child,
+table.items .CButtonColumn a:first-child {
+	margin-left: 0;
+}
+
+table.items .button-column .view,
+table.items .CButtonColumn .view {
+	width: 17px;
+	height: 16px;
+	display: inline-block;
+	background: url("../images/table-view.png") no-repeat;
+}
+
+table.items .button-column .delete,
+table.items .CButtonColumn .delete {
+	width: 15px;
+	height: 16px;
+	display: inline-block;
+	background: url("../images/table-trash.png") no-repeat;
+}
+table.items .button-column .drag,
+table.items .CButtonColumn .drag {
+	width: 15px;
+	height: 21px;
+	display: inline-block;
+	background: url("../images/table-sort.png") no-repeat;
+	position: relative;
+	top: 5px;
+}
+
+table.items .button-column .update,
+table.items .CButtonColumn .update {
+	width: 15px;
+	height: 16px;
+	display: inline-block;
+	background: url("../images/table-update.png") no-repeat;
+}
+
+table.items .button-column .restore,
+table.items .CButtonColumn .restore {
+    text-indent: -9999px;
+	width: 15px;
+	height: 16px;
+	display: inline-block;
+	background: url("../images/table-restore.png") no-repeat;
+}
+
+table.items .button-column .delete img,
+table.items .CButtonColumn .delete img,
+table.items .button-column .update img,
+table.items .CButtonColumn .update img,
+table.items .button-column .view img,
+table.items .CButtonColumn .view img {
+	display: none;
+}
+
+.table-grid table.items td {
+	border-top: 1px solid #E5E5E5;
+	background: #FFF;
+}
+
+.table-grid table.items tr:nth-child(2n + 1) td {
+	background: #FFF;
+}
+
+
+/*table.items .checkbox-column input[type="checkbox"] {*/
+	/*-webkit-appearance: none;*/
+	/*-moz-appearance:    none;*/
+	/*appearance:         none;*/
+	/*width: 16px;*/
+	/*height: 16px;*/
+	/*background: url("../images/checkbox.png") no-repeat;*/
+	/*position: relative;*/
+	/*top: 4px;*/
+	/*outline: 0;*/
+	/*cursor: pointer;*/
+/*}*/
+
+th.checkbox-column label {
+	margin: 0 auto;
+}
+.checkbox-column input[type="checkbox"] {
+	display: none;
+}
+.checkbox-column input[type="checkbox"] + label {
+	width: 16px;
+	height: 16px;
+	background: url("../images/checkbox.png") no-repeat;
+	position: relative;
+	top: 4px;
+	outline: 0;
+	cursor: pointer;
+	display: block;
+}
+.checkbox-column input[type="checkbox"]:checked + label {
+	background-position: top right;
+}
+
+
+#pagination {
+	margin-top: 20px;
+	background: #FFF;
+	display: inline-block;
+}
+
+#pagination:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+
+#pagination li {
+	float: left;
+	border-left: 1px solid #d9e9ff;
+}
+
+#pagination li a {
+	min-width: 30px;
+	display: inline-block;
+	color: #657ed4;
+	padding: 5px 10px;
+	font-size: 12px;
+	text-decoration: none;
+	text-align: center;
+	background: #f4f8ff;
+}
+
+#pagination .first {
+	border-left: 0;
+}
+#pagination .first a {
+	background: transparent url("../images/first.png") no-repeat center;
+	text-indent: -9999em;
+}
+
+#pagination .previous {
+	border-left: 0;
+}
+
+#pagination .previous a {
+	background: transparent url("../images/prev.png") no-repeat center;
+	text-indent: -9999em;
+}
+
+#pagination .previous + li {
+	border-left: 0;
+}
+
+
+#pagination .selected a {
+	background: #ffffff;
+	border-color: #999;
+	color: #fd9a41;
+}
+
+#pagination .next {
+	border-left: 0;
+}
+#pagination .next a {
+	background: transparent url("../images/next.png") no-repeat center;
+	text-indent: -9999em;
+}
+
+#pagination .last {
+	border-left: 0;
+}
+#pagination .last a {
+	background: transparent url("../images/last.png") no-repeat center;
+	text-indent: -9999em;
+}
+
+#pagination .first.hidden a,
+#pagination .previous.hidden a,
+#pagination .selected.hidden a,
+#pagination .next.hidden a,
+#pagination .last.hidden a {
+	color: #999;
+}
+
+table.items thead .sort-link:after {
+	content: '';
+	width: 10px;
+	height: 15px;
+	background: url("../images/sort-default.png") no-repeat bottom center;
+	display: inline-block;
+	margin-left: 7px;
+	position: relative;
+	top: 3px;
+}
+table.items thead .sort-link.asc:after {
+	background-image: url("../images/sort-desc.png");
+}
+table.items thead .sort-link.desc:after {
+	background-image: url("../images/sort-asc.png");
+}
+
+.grid-view.grid-view-loading {
+	position: relative;
+}
+.grid-view.grid-view-loading table {
+	opacity: 0.4;
+}
+.grid-view.grid-view-loading:after {
+	content: '';
+	width: 32px;
+	height: 32px;
+	display: block;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin: -16px 0 0 -16px;
+	background: url("../images/ajax-loader.gif");
+	z-index: 1000;
+}
+.grid-view.no-drag table.items .button-column .drag,
+.grid-view.no-drag table.items .CButtonColumn .drag {
+	display: none;
+}

@@ -1,0 +1,173 @@
+#navigation-list {
+    max-width: 600px;
+}
+#nav-grid .sortable {
+    font-size: 0;
+}
+
+#nav-grid li {
+    margin-bottom: 5px;
+    border-radius: 3px;
+    border: 1px solid #CACACA;
+    background: #FFF;
+    display: inline-block;
+    height: 40px;
+    font-size: 16px;
+    color: #676767;
+    line-height: 39px;
+    text-decoration: none;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    margin-right: 5px;
+}
+
+#nav-grid li a {
+    color: #676767;
+    text-decoration: none;
+    display: block;
+    padding: 0 15px 0 15px;
+    cursor: move;
+}
+
+#nav-grid li.disable {
+    border: 1px solid #E2E2E2;
+}
+
+#nav-grid li.disable a {
+    color: #C4BCBC;
+}
+
+#nav-grid .ui-sortable-helper {
+
+    -webkit-transition: none;
+    -moz-transition: none;
+    -ms-transition: none;
+    -o-transition: none;
+    transition: none;
+}
+
+.nav-sort {
+    width: 100%;
+}
+
+.sortable {
+    width: 100%;
+    font-size: 13px;
+    margin-bottom: 20px;
+}
+
+.sortable li {
+    margin-top: 0;
+}
+
+.sortable li + li {
+    margin-top: 5px;
+}
+
+.sortable li > div {
+    color: #6a7194;
+    display: block;
+    padding: 5px 80px 5px 10px;
+    border-radius: 3px;
+    border: 2px solid #d9e9ff;
+    background: #FFF;
+}
+
+.sortable li > div + ul {
+    margin-top: 5px;
+}
+
+.sortable li > div.disable {
+    opacity: 0.5;
+}
+
+.sortable li > ul {
+    margin-left: 30px;
+}
+
+.sortable .placeholder {
+    border: 2px dashed #FF592E;
+    border-radius: 3px;
+    height: 29px;
+}
+
+.sortable .placeholder-error {
+    height: 29px;
+    background: #FFC1C1;
+    border: 2px dashed #FF6A6B;
+    border-radius: 3px;
+}
+
+.nav-sort li > div {
+    position: relative;
+}
+
+.nav-sort li > div .edit,
+.nav-sort li > div .visible,
+.nav-sort li > div .remove,
+.nav-sort li > div .addStatic {
+    position: absolute;
+    right: 5px;
+    top: 50%;
+    color: #A7A7A7;
+    cursor: pointer;
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: -9px;
+}
+
+.nav-sort li > div .edit {
+    background-image: url("../images/table-update.png");
+    right: 25px;
+    margin-top: -8px;
+}
+
+.nav-sort li > div .visible {
+    right: 45px;
+    background-image: url("../images/table-view.png");
+}
+
+.nav-sort li > div .remove {
+    background-image: url("../images/table-trash.png");
+}
+.nav-sort li > div .addStatic {
+    right: 50px;
+    background-image: url("../images/plus-blue.png");
+}
+
+.nav-add {
+    width: 48%;
+}
+
+ul.sortable li.mjs-nestedSortable-collapsed > ul {
+    display: none;
+}
+ul.sortable .mjs-nestedSortable-leaf>div>.disclose {
+    display: none;
+}
+ul.sortable .mjs-nestedSortable-branch>div>.disclose {
+    cursor: pointer;
+    display: inline-block;
+    vertical-align: middle;
+    width: 0;
+    height: 0;
+    overflow: hidden;
+    border-left: 3px solid transparent;
+    border-right: 3px solid transparent;
+    border-top: 8px solid #676767;
+    margin: 0 7px 3px 0;
+}
+ul.sortable .mjs-nestedSortable-expanded>div>.disclose {
+    border-top: 0;
+    border-bottom: 8px solid #676767;
+}
+ul.sortable > li > ul {
+    display: block !important;
+}
+ul.sortable > li > div > .disclose {
+    display: none !important;
+}

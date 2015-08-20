@@ -1,0 +1,17 @@
+.contact-info.type2 {
+    border: 0;
+    margin-top: 18px
+}
+.contact-info.type2 .image {
+    margin: 0 18px 5px 0;
+}
+.contact-info.type2 .desc {
+    padding: 0;
+    display: block;
+}
+.contact-info.type2 .desc .title {
+    padding-top: 0;
+}
+.collapses .desc .contact-info {
+    margin: 0;
+}

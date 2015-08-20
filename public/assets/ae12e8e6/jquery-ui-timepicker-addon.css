@@ -1,0 +1,7 @@
+.ui-timepicker-div { margin-top: 10px; }
+.ui-timepicker-div .ui-widget-header{ margin-bottom: 8px; }
+.ui-timepicker-div dl{ text-align: left; }
+.ui-timepicker-div dl dt{ height: 16px; font-size: 12px; }
+.ui-timepicker-div dl dd{ margin: -22px 0 12px 75px; }
+.ui-timepicker-div td { font-size: 90%; }
+.ui-timepicker-input { width: 50%; }

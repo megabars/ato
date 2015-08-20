@@ -1,0 +1,108 @@
+.normative_acts h2 {
+    color: #4d4d4d;
+    font-size: 1.4em;
+    margin-bottom: 20px;
+}
+
+.normative_acts ul {
+    border: 1px dotted #97cfff;
+    margin: 0;
+}
+
+.normative_acts li {
+    border-bottom: 1px dotted #97cfff;
+    display: block;
+    position: relative;
+}
+
+.normative_acts li:last-child {
+    border-bottom: medium none;
+}
+
+.normative_acts p {
+    font-size: 0.8em;
+}
+
+.normative_acts h3 {
+    padding-bottom: 10px;
+}
+
+.normative_acts h3 a {
+    font-size: 1.1em;
+    text-decoration: none;
+}
+
+.normative_acts_wrap {
+    padding: 0 115px 0 15px;
+}
+
+.normative_acts_wrap:first-child {
+    float: left;
+}
+
+.normative_acts_downloads {
+    border-left: 1px dotted #97cfff;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 110px;
+}
+
+.normative_acts_downloads div {
+    height: 1px;
+    left: 0;
+    margin-top: -1em;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    top: 50%;
+}
+
+.normative_acts_downloads a {
+    border-bottom: 1px dotted;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.normative_acts_downloads a:hover {
+    border-bottom: 1px dotted rgba(0, 0, 0, 0);
+}
+
+.normative_acts .pic {
+    left: 5px;
+    position: absolute;
+    top: 15px;
+}
+
+.normative_acts .anchor-2 {
+    min-height: 88px;
+    padding-left: 67px;
+	margin-left: 12px;
+}
+
+.normative_acts .anchor-2 h3 {
+    font-weight: 300;
+    margin: 17px 0 0;
+    padding-bottom: 5px;
+}
+
+.normative_acts.normative_acts-inside h3 {
+	font-size: 15px;
+}
+
+.normative_acts.normative_acts-inside li {
+	padding-left: 0;
+}
+.anchor {
+    clear: both;
+    float: none;
+}
+
+.anchor-2:after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    visibility: hidden;
+}

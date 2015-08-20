@@ -1,0 +1,51 @@
+.list_paging > div {
+    display: inline-block;
+    height: 30px;
+}
+.list_paging a {
+    border-bottom: 2px solid #fff;
+    display: block;
+    float: left;
+    height: 28px;
+    line-height: 30px;
+    margin-right: 6px;
+    padding: 0 6px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+}
+.list_paging a.disabled {
+    cursor: default;
+}
+.list_paging a > .ico {
+    height: 11px;
+    left: 3px;
+    top: 10px;
+    width: 6px;
+}
+.list_paging a.prev > .ico {
+    background-position: -212px -375px;
+}
+.list_paging a.prev.disabled > .ico {
+    background-position: -212px -387px;
+}
+.list_paging a.next > .ico {
+    background-position: -219px -375px;
+}
+.list_paging a.next.disabled > .ico {
+    background-position: -219px -387px;
+}
+.list_paging a:hover {
+    border-bottom-color: #00aee1;
+    border-bottom-width: 3px;
+    margin-bottom: -1px;
+}
+.list_paging li.active a {
+    background: none repeat scroll 0 0 #fafafa;
+    border-bottom-color: #c8c8c8;
+    border-bottom-width: 3px;
+    margin-bottom: -1px;
+}
+.list_paging a.prev, .list_paging a.next {
+    border-bottom-color: #fff;
+}
