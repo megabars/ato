@@ -73,13 +73,14 @@ class BackController extends AdminController
 
             if ($model->save())
             {
+                /*
                 if ($model->state == 1)
                 {
                     $this->twitterPost($model);
 
                     $this->facebookPost($model->id);
                 }
-
+*/
                 $this->redirect('/index');
             }
         }
